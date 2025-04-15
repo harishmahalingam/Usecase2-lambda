@@ -4,4 +4,4 @@ FROM public.ecr.aws/lambda/python:3.11
 COPY hello.py .
  
 # Set the Lambda handler (file.function)
-CMD ["app.lambda_handler"]
+CMD ["hello.lambda_handler"]
